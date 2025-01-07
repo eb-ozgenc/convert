@@ -24,7 +24,7 @@ If you have installed uVision 5 somewhere else instead of C drive of Windows, yo
 - click "Edit in Notepad" or any other note writing program
 - change the file address (make sure that the file address you write has fromelf.exe)
 - save and close the file
-- 
+  
 If you want to convert just a specific named file with .axf extention, write the filename instead of *
 If you want to change the output file name, change test 
-(Do not change file extentions .axf or .srec)
+(Do not change file extentions .axf .srec or .bat)
