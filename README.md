@@ -2,7 +2,7 @@
 convert.bat is used for Bilkent EEE 212 course while programming the FRDM-KL25Z without uploading the code from Keil uVision 5 IDE. It helps when you cannot use Premicro Debugger to load code to KL25Z. This case presents (commonly in Windows 11) as your PC not supporting/recognizing KL25Z board and you cannot use "Download" operation on uVision. Instead of Premicro Debugger, this code uses fromelf tool downloaded within uVision 5.
 
 ## Code
-convert.bat has this code loaded:
+convert.bat has this code loaded: 
 "C:\Keil_v5\ARM\ARMCLANG\bin\fromelf.exe" --bin .\*.axf --output .\test.srec
 
 ## Operation
