@@ -1,5 +1,5 @@
 # convert.bat
-convert.bat is used for programming the FRDM-KL25Z without uploading the code from Keil uVision 5 IDE. It helps when you cannot use Premicro Debugger to load code to KL25Z. This case presents (commonly in Windows 11) as your PC not supporting/recognizing KL25Z board and you cannot use "Download" operation on uVision. Instead of Premicro Debugger, this code uses fromelf tool downloaded within uVision 5.
+convert.bat is used for Bilkent EEE 212 course while programming the FRDM-KL25Z without uploading the code from Keil uVision 5 IDE. It helps when you cannot use Premicro Debugger to load code to KL25Z. This case presents (commonly in Windows 11) as your PC not supporting/recognizing KL25Z board and you cannot use "Download" operation on uVision. Instead of Premicro Debugger, this code uses fromelf tool downloaded within uVision 5.
 
 ## Code
 convert.bat has this code loaded:
@@ -8,7 +8,7 @@ convert.bat has this code loaded:
 ## Operation
 When you "Build" or "Rebuild" a project in uVision 5 a file with the extention of .axf appears on the objects folder of the project)
 Fromelf tool converts any .axf file within the same folder into a .srec file (make sure you have a single file with .axf extention before running convert.bat)
-You can copy the test.srec file to FRDM-KL25Z location (memory of the board)
+You can copy the test.srec file to FRDM-KL25Z location (memory of the board) (If your PC does not recognize the board as a memory location, you probably have some other driver issues)
 The board automatically loads the code after unplugging and plugging back the board to your PC
 
 ## How to make/edit convert.bat 
